@@ -1,8 +1,8 @@
 <%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 
 <%
-		String username=getServletContext().getInitParameter("Username");
-		String password=getServletContext().getInitParameter("Password");
+		String username="ziv";
+		String password="vilozni";
 		
 if(request.getParameter("username").equalsIgnoreCase(username)&& request.getParameter("userpass").equalsIgnoreCase(password))
 {
