@@ -13,7 +13,7 @@ session.setAttribute("islogin","plz sign in first");
 }
 
 else{
-request.setAttribute("Error","Sorry! Username or Password Error! plz Enter Correct Detail");
+request.setAttribute("Error","Sorry! Username or Password Error!! plz Enter Correct Detail");
 session.setAttribute("Loginmsg","plz sign in first");
 %>
 <jsp:forward page="admin.jsp"></jsp:forward>
